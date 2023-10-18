@@ -1,0 +1,14 @@
+name = "ada_enet_demos"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["Olivier Henley"]
+maintainers = ["Olivier Henley <olivier.henley@gmail.com>"]
+maintainers-logins = ["ohenley"]
+
+executables = ["dns", "echo", "ping", "time"]
+
+[[depends-on]]
+ada_enet = "0.1.0-dev"
+stm32f746disco = "0.1.0-dev"
+stm32_gui = "0.1.0-dev"
