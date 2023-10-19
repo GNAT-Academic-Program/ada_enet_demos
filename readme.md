@@ -25,10 +25,10 @@ cd ada_enet_demos*
 alr build
 ```
 
-### Build (GPRBuild)
+### Build (GPRbuild)
 ```
 eval "$(alr printenv)"
-gprbuild hada_enet_demos.gpr
+gprbuild ada_enet_demos.gpr
 ```
 
 ### Build (GnatStudio)
