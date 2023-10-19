@@ -3,7 +3,7 @@
 ### Prerequesite (tested on linux ubuntu 20.04 only)
 
 #### Alire
-Refer [here](https://github.com/GNAT-Academic-Program#install-alire-an-ada-package-manager) to install
+- Refer [here](https://github.com/GNAT-Academic-Program#install-alire-an-ada-package-manager) to install
 
 #### OpenOCD
 ```
