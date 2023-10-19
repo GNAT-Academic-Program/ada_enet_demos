@@ -6,7 +6,7 @@
 Refer [here](https://github.com/GNAT-Academic-Program#install-alire-an-ada-package-manager) to install
 
 #### OpenOCD
-```console
+```
 sudo apt install openocd
 ```
 
@@ -15,30 +15,30 @@ sudo apt install openocd
 
 
 ### Fetch 
-```console
+```
 alr get ada_enet_demos
 cd ada_enet_demos*
 ```  
 
 ### Build (Terminal)
-```console
+```
 alr build
 ```
 
 ### Build (GPRBuild)
-```console
+```
 eval "$(alr printenv)"
 gprbuild hada_enet_demos.gpr
 ```
 
 ### Build (GnatStudio)
-```console
+```
 eval "$(alr printenv)"
 gnatstudio ada_enet_demos.gpr
 ```
 
 ### Run
 
-```console
+```
 openocd -f /usr/local/share/openocd/scripts/board/stm32f746g-disco.cfg -c 'program bin/ping verify reset exit'
 ```    
