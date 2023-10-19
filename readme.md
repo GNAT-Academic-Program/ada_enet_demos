@@ -2,21 +2,16 @@
 
 ### Prerequesite (tested on linux ubuntu 20.04 only)
 
-#### Alire: https://github.com/alire-project/alire/releases
-- Download and unzip the latest linux zip
-- Add `where_you_unzipped/alr` to [PATH](https://phoenixnap.com/kb/linux-add-to-path)  
-- Verify Alire is found on your path. 
-```console   
-which alr
-```
+#### Alire
+Refer [here](https://github.com/GNAT-Academic-Program#install-alire-an-ada-package-manager) to install
 
 #### OpenOCD
 ```console
 sudo apt install openocd
 ```
 
-#### STM32f746 Discovery board
-- Plug it to your computer using the [USB MIN B cable](https://www.reviewgeek.com/53587/usb-explained-all-the-different-types-and-what-theyre-used-for/)
+#### STM32f746 Discovery [board](https://www.st.com/en/evaluation-tools/32f746gdiscovery.html)
+- Plug it to your computer using a [USB MIN B cable](https://www.reviewgeek.com/53587/usb-explained-all-the-different-types-and-what-theyre-used-for/)
 
 
 ### Fetch 
