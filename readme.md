@@ -20,7 +20,7 @@ alr get ada_enet_demos
 cd ada_enet_demos*
 ```  
 
-### Build (Terminal)
+### Build (Alire)
 ```
 alr build
 ```
