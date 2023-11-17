@@ -40,5 +40,10 @@ gnatstudio ada_enet_demos.gpr
 ### Run
 
 ```
-openocd -f /usr/local/share/openocd/scripts/board/stm32f746g-disco.cfg -c 'program bin/ping verify reset exit'
-```    
+openocd -f board/stm32f746g-disco.cfg -c 'program bin/ping verify reset exit'
+```
+
+Full config path for apt installation (uneeded by default):
+```
+openocd -f /usr/share/openocd/scripts/board/stm32f746g-disco.cfg -c 'program bin/ping verify reset exit'
+```
